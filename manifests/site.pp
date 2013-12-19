@@ -57,7 +57,7 @@ node default {
   include git
   # include hub
   include nginx
-  include mysql
+  # include mysql
   include tmux
 
   # fail if FDE is not enabled
@@ -89,4 +89,6 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # mysql::db { 'mydb': }
 }
