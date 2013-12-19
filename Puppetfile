@@ -44,8 +44,9 @@ github "ruby",       "6.7.6"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "repository", "2.2.0"
 github "redis",      "2.1.0"
-# github "mysql",      "1.2.0"
+github "mysql",      "1.2.0"
 github "vim",        "1.0.5"
+github "tmux",       "1.0.2"
 
 # not sure about these:
 # github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"

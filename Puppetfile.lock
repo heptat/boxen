@@ -19,6 +19,11 @@ GITHUBTARBALL
     homebrew (1.6.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mysql
+  specs:
+    mysql (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.3)
@@ -49,6 +54,11 @@ GITHUBTARBALL
     ruby (6.7.6)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tmux
+  specs:
+    tmux (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-vim
   specs:
     vim (1.0.5)
@@ -63,6 +73,7 @@ DEPENDENCIES
   gcc (= 2.0.1)
   git (= 1.3.7)
   homebrew (= 1.6.0)
+  mysql (= 1.2.0)
   nginx (= 1.4.3)
   openssl (= 1.0.0)
   pkgconfig (= 1.0.0)
@@ -70,5 +81,6 @@ DEPENDENCIES
   repository (= 2.2.0)
   ruby (= 6.7.6)
   stdlib (= 4.1.0)
+  tmux (= 1.0.2)
   vim (= 1.0.5)
 
