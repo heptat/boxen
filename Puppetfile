@@ -45,16 +45,19 @@ github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "repository", "2.2.0"
 github "redis",      "2.1.0"
 # github "mysql",      "1.99.6"
-# github "mysql",      "1.2.0"
+github "mysql",      "1.2.0"
 # github "mysql",      "1.2.3", :repo => "sidereel-dev/puppet-mysql"
 github "vim",        "1.0.5"
 github "tmux",       "1.0.2"
 # mod "mysql", :git => "https://github.com/boxen/puppet-mysql"
 # mod "mysql", :git => "https://github.com/sidereel-dev/puppet-mysql"
+github "java",       "1.2.0"
+github "iterm2",     "1.0.4"
 
-# not sure about these:
-# github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
-# github "sudo",       "1.0.0"
+# not sure about these - yes, they are required:
+github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
+github "sudo",       "1.0.0"
+github "xquartz",    "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

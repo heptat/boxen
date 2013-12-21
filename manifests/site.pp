@@ -57,8 +57,9 @@ node default {
   include git
   # include hub
   include nginx
-  # include mysql
+  include mysql
   include tmux
+  include redis
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -71,8 +72,6 @@ node default {
   # include nodejs::v0_10
 
   # default ruby versions
-  include ruby::1_8_7
-  include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
 
@@ -91,4 +90,13 @@ node default {
   }
 
   # mysql::db { 'mydb': }
+
+  include iterm2::stable
+  # doesn't seem to work:
+  # include iterm2::colors::solarized_dark
+  # include java
 }
+
+# node nishapur {
+#   # doesn't work - problems with git auth
+# }
