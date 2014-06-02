@@ -63,5 +63,7 @@ github "inifile",     "1.0.3", :repo => "puppetlabs/puppetlabs-inifile"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.1"
 
+# github "packer",    "1.2.1"
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
